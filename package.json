@@ -1,0 +1,23 @@
+{
+  "name": "my-todo-app",
+  "version": "1.0.0",
+  "description": "Simple todo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warrenbrown/my-todo-app.git"
+  },
+  "author": "Warren Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warrenbrown/my-todo-app/issues"
+  },
+  "homepage": "https://github.com/warrenbrown/my-todo-app#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
