@@ -4,6 +4,8 @@ const task = ["buy socks", "practise with nodejs"];
 const express = require('express');
 //call express
 const app = express();
+//add ability to user static public folder
+app.use(express.static('public'));
 //require body-parser
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
